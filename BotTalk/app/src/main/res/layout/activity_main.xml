@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_mainactivity" >
+
+
+    <Button
+        android:id="@+id/btn_listen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listen" />
+
+    <Button
+        android:id="@+id/btn_hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello BotTalk" />
+
+    <Button
+        android:id="@+id/btn_leave_approval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leave Approval" />
+
+    <Button
+        android:id="@+id/btn_leave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leave" />
+
+    <TextView
+        android:id="@+id/result_textview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>
+
